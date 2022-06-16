@@ -112,7 +112,7 @@ function calculate(button){
                 displayDigits.textContent = result;
                 }   
             }
-        }else if (el == "Shift"){
+        }else if (el == "Shift" ||  /^[a-zA-Z]+$/g.test(el)){
 
 
         } else {
